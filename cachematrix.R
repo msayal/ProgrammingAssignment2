@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This file is submitted to implement two functions that are used for:
+## 1) creating and managing a matrix whose inverse can be cached
+## 2) calculating a cached version of the inverse of the matrix
 
-## Create a special matrix whose inverse can be cached (x is the matrix)
+## Creates a special matrix whose inverse can be cached (x is the matrix)
 
 makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL
